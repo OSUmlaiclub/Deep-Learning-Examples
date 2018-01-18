@@ -1,3 +1,18 @@
+#Author: Christian Gabor
+#This is code written while doing the Intel Deep Learning 101 course
+#https://software.intel.com/en-us/ai-academy/students/kits/deep-learning-101
+
+#This code creates a fully connected Neural Network and learns to identify handwritten digits from the MNIST dataset
+#This uses Keras and a TensorFlow backend
+#The Neural Network uses dropout to reduce overfitting, with a very good final accuracy
+#After the network trains, it will enter a loop that randomly selects 5 handwritten digits from the validation set
+#It will give a numerical description for each picture
+
+#Recommended to have Anaconda with Python 3, TensorFlow, Keras and matplotlib installed
+
+#Try it for yourself and see it predict the results!
+
+
 from __future__ import print_function
 
 import random
